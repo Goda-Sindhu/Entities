@@ -21,7 +21,7 @@ public class CoNoticesEntity {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer noticeId;
-	private Integer caseNumber;
+	//private Integer caseNumber;
 	private String edTraceID;
 	private Blob coPdf;
 	private Date printDate;

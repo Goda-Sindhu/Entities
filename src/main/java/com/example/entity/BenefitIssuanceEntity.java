@@ -18,7 +18,7 @@ public class BenefitIssuanceEntity {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer benefitId;
 
-	private Integer caseNumber;
+	//private Integer caseNumber;
 
 	private String benefitMonthYear;
 	private double benefitAmount;
